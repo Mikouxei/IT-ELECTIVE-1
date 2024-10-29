@@ -1,1 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
+body {
+    height: 100vh;
+    background: url('img/corporate.jpg') center/cover;
+    background-color: rgba(214, 167, 255, .8); /* Semi-transparent overlay */
+    background-blend-mode:soft-light;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    background-color: rgb(59, 30, 84, .95);
+    white-space: nowrap;
+}
+
+/* --------------------- LOGO --------------------- */
+.logo {
+    display: flex;
+    text-decoration: none;
+    height: 30px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* --------------------- CONTACT ICON --------------------- */
+.contact {
+    display: flex;
+    text-decoration: none;
+    color: rgb(212, 190, 228);
+    border: 1px solid rgb(212, 190, 228);
+    border-radius: 40px;
+    padding: 5px 12px;
+}
+
+/* --------------------- NAVIGATION LIST --------------------- */
+.navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(212, 190, 228);
+    text-decoration: none;
+    padding: 0 2vw;
+}
+
+a:hover {
+    color: rgb(238, 238, 238);
+    border-color: rgb(238, 238, 238);
+}
+
+
+/* --------------------- CONTENT --------------------- */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 100px;
+}
+
+.title {
+    font-size: 6vw;
+    color: rgb(59, 30, 84);
+
+}
+
+.subheading {
+    font-size: 1.3vw;
+    color: rgb(106, 72, 146);
+}
+
+.call-to-action {
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(59, 30, 84);
+    border: 1px solid rgb(59, 30, 84);
+    border-radius: 30px;
+    padding: 1vw 1.5vw;
+    margin: 3vw 0;
+}
+
+.call-to-action:hover {
+    color: rgb(238, 238, 238); 
+    border-color: rgb(238, 238, 238);
+}
